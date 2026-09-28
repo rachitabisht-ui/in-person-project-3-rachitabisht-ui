@@ -3,47 +3,52 @@
 
 // TODO: Fill in your personal information
 const portfolio = {
-    // Personal information object
     owner: {
-        name: "Your Name Here",        // TODO: Add your name
-        title: "Your Title Here",      // TODO: Add your professional title
-        email: "your.email@example.com", // TODO: Add your email
-        location: "Your City, State",  // TODO: Add your location
-        bio: "Write a brief description about yourself here. What are you passionate about? What are your goals?" // TODO: Add your bio
+        name: "Rachita Bisht",
+        title: "UX Researcher",
+        email: "rachitabisht@berkeley.edu",
+        location: "Berkeley, CA",
+        bio: "UX researcher with six years of experience, now pursuing a MIMS at UC Berkeley's School of Information. I previously led research at ShareChat, focusing on helping multilingual and first-time internet users become confident content creators."
     },
-    
-    // Skills as an array
+
     skills: [
-        "Add your first skill here",   // TODO: Replace with your actual skills
-        "Add your second skill here",  // TODO: Add more skills
-        "Add your third skill here"    // TODO: Students should have at least 5 skills
-        // TODO: Add more skills - aim for 5-7 skills total
+        "Mixed-Methods User Research",
+        "Building Research Functions",
+        "Multilingual & Emerging-Market Research",
+        "Usability Testing",
+        "HTML5 & Semantic Markup",
+        "CSS3 & Responsive Design",
+        "JavaScript Fundamentals"
     ],
-    
-    // Projects as array of objects
+
     projects: [
         {
-            title: "Your First Project",
-            description: "Describe what this project does and why it's interesting",
-            technologies: ["HTML", "CSS"], // Array of technologies used
-            completionDate: "2025-08-15",   // When you completed it
-            featured: true                   // Is this a featured project?
+            title: "ShareChat Creator Research",
+            description: "Research to understand what holds back first-time creators and how to turn passive viewers into active creators.",
+            technologies: ["User Interviews", "Field Research", "Survey Design"],
+            completionDate: "2024-06-01",
+            featured: true
         },
         {
-            title: "Your Second Project", 
-            description: "Another project description here",
+            title: "Ask Me Twice",
+            description: "An LLM evaluation tool built during my internship at the Internet Archive.",
+            technologies: ["JavaScript", "Research", "LLM Evaluation"],
+            completionDate: "2026-08-15",
+            featured: true
+        },
+        {
+            title: "Data-Driven Portfolio",
+            description: "This site: portfolio content stored as JavaScript data and rendered with template literals.",
             technologies: ["HTML", "CSS", "JavaScript"],
-            completionDate: "2025-09-01",
+            completionDate: "2026-09-28",
             featured: false
         }
-        // TODO: Add more projects during class
     ],
-    
-    // Contact and availability information
+
     availability: {
-        freelance: false,    // TODO: Set to true if available for freelance work
-        fullTime: false,     // TODO: Set to true if seeking full-time position
-        partTime: true       // TODO: Set to true if available for part-time work
+        freelance: false,
+        fullTime: true,
+        partTime: false
     }
 };
 
